@@ -1,4 +1,4 @@
-[![badge](https://img.shields.io/badge/conan.io-OpenSC%2Fnext-green.svg?logo=data:image/png)](http://www.conan.io/source/OpenSC/next/nunojpg/ci)
+[![Download](https://api.bintray.com/packages/nunojpg/conan-repo/OpenSC%3Anunojpg/images/download.svg)](https://bintray.com/nunojpg/conan-repo/OpenSC%3Anunojpg/_latestVersion)
 [![Build Status](https://travis-ci.org/nunojpg/conan-OpenSC.svg?branch=master)](https://travis-ci.org/nunojpg/conan-OpenSC)
 [![Build status](https://ci.appveyor.com/api/projects/status/n4avbrlh3kc0x7b2/branch/master?svg=true)](https://ci.appveyor.com/project/nunojpg/conan-opensc/branch/master)
 
