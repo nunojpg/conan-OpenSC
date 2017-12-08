@@ -24,6 +24,8 @@ class OpenSCConan(ConanFile):
             installer.install('pkg-config libpcsclite-dev')
 
     def source(self):
+        if 'CONAN_RUNNER_ENCODED' in os.environ:    #conan package tools linux docker build
+            os.environ['GIT_SSL_NO_VERIFY'] = 'true'
         self.run('git clone --depth 1 https://github.com/OpenSC/OpenSC')
 
     def configure(self):
