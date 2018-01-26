@@ -45,7 +45,7 @@ class OpenSCConan(ConanFile):
                 self.run(r'cp win32/winconfig.h config.h')
                 self.run(r'nmake /f Makefile.mak BUILD_ON=WIN64 BUILD_FOR=WIN64%s' % debug)
             else:
-                install_dir = self.conanfile_directory + '/distribution'
+                install_dir = self.source_folder + '/distribution'
                 self.run('./bootstrap')
                 self.run('./configure --prefix=%s%s%s%s' %
                          (install_dir, zlib, openssl, readline))

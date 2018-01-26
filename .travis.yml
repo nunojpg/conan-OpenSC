@@ -15,11 +15,11 @@ matrix:
     python: "3.6"
     services:
       - docker
-    env: CONAN_GCC_VERSIONS=5 CONAN_USE_DOCKER=1
+    env: CONAN_GCC_VERSIONS=7 CONAN_USE_DOCKER=1
   - os: osx
     language: generic
-    osx_image: xcode8.3
-    env: CONAN_APPLE_CLANG_VERSIONS=8.1 PYTHON_VERSION=3.6.1
+    osx_image: xcode9
+    env: CONAN_APPLE_CLANG_VERSIONS=9.0 PYTHON_VERSION=3.6.1
 install:
 - "./.travis/install.sh"
 script:
